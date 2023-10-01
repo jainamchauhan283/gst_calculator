@@ -76,6 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               TextField(
                 controller: Amount,
+                keyboardType: TextInputType.number,
                 textInputAction: TextInputAction.next,
                 decoration: InputDecoration(
                   prefixIcon: Icon(Icons.currency_rupee),
